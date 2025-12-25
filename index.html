@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文档标题</title>
+</head>
+<body>
+    <div class="home">
+        <div class="bodder-div">
+          <div class="top-div">
+            <div class="title-div">号游猫</div>
+            <div class="content-div">
+              <!-- <el-image
+                  style="width: 297px;"
+                  :src="require('@/assets/taohaobang1.png')"
+                  fit="contain"
+                /> -->
+
+                <img src="./taohaobang1.png" alt="" class="top-img-div">
+
+              <div class="title-text-div">
+                <div class="title-text">二手交易选"号游猫"</div>
+                <div class="title-text-two">官方保障，永久包赔，售后无忧</div>
+                <!-- <div class="download-show-div">
+                  <div class="download-div" @click="downMethod">
+                    <el-image
+                      style="width: 20px; height: 20px"
+                      :src="require('@/assets/icon_andrio.png')"
+                      fit="cover"
+                    />
+                    <span class="download-title">安卓下载</span>
+                  </div>
+                  <div class="download-div download-left" @click="downMethod">
+                    <el-image
+                      style="width: 20px; height: 20px"
+                      :src="require('@/assets/icon_ios.png')"
+                      fit="cover"
+                    />
+                    <span class="download-title">苹果下载</span>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="image-show-div">
+
+            <img src="./taohaobang1.png" alt="" class="img-div left">
+
+            <img src="./taohaobang2.png" alt="" class="img-div left">
+
+            <img src="./taohaobang3.png" alt="" class="img-div left">
+
+            <img src="./taohaobang4.png" alt="" class="img-div left">
+
+
+           
+          
+          </div>
+          <!-- <div class="bottom-div">
+            <div>公司名称：修水县手游宝电子商务有限公司</div>
+              <div>公司地址：江西省九江市修水县工业园区吴都项目区7#厂房302室</div>
+              <div>ICP备案证书号：赣ICP备2023009261号-1</div>
+          </div> -->
+
+            <div class="bottom-div">
+            <div>联系邮箱：haoyoumao51@163.com</div>
+            <div>联系电话：19178401164</div>
+          </div>
+        </div>
+      </div>
+	
+    
+</body>
+
+<style>
+    .img-div{
+        width: 300px; 
+        height: 650px;
+    }
+    .top-img-div{
+        width: 297px;
+    }
+ .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  
+  .bodder-div {
+    /* margin-top: 20px; */
+    width: 1440px;
+    background-color: white;
+  }
+  .top-div {
+    height: 528px;
+    background-color: #FF324D;
+        background-color: #fef2ee;
+        background-color: #F2F8FF;
+        background-color: #0172FF;
+
+
+    overflow: hidden;
+  }
+  .title-div {
+    margin-left: 120px;
+    width: 157px;
+    height: 73px;
+    background-color: #fef2ee;
+    /* background-color: #0172FF; */
+    border-radius: 0px 0px 8px 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Alibaba PuHuiTi 2-85 Bold, Alibaba PuHuiTi 20;
+    font-weight: normal;
+    color: #000000;
+    line-height: 28px;
+  }
+  .content-div {
+    display: flex;
+    margin-top: 90px;
+    padding-left: 200px;
+  }
+  .title-text-div {
+    margin-left: 96px;
+    text-align: left;
+    padding-top: 12px;
+  }
+  .title-text {
+    font-size: 72px;
+    font-family: Alibaba PuHuiTi 2-95 ExtraBold, Alibaba PuHuiTi 20;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 84px;
+  }
+  .title-text-two {
+    font-size: 62px;
+    font-family: Alibaba PuHuiTi 2-95 ExtraBold, Alibaba PuHuiTi 20;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 73px;
+    margin-top: 10px;
+  }
+  .image-show-div {
+    display: flex;
+    padding-top: 87px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  .left {
+    margin-left: 69px;
+  }
+  .bottom-div {
+    background-color: #f8f8f8;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: PingFang SC-常规体, PingFang SC;
+    font-weight: normal;
+    color: #1a1a1a;
+    line-height: 28px;
+  }
+  .download-div {
+    display: flex;
+    background-color: #fef2ee;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+  }
+  .download-title {
+    margin-left: 4px;
+    font-size: 14px;
+    font-family: PingFang SC-常规体, PingFang SC;
+    font-weight: normal;
+    color: #1a1a1a;
+    line-height: 28px;
+  }
+  .download-left {
+    margin-left: 20px;
+  }
+  .download-show-div {
+    display: flex;
+    padding-left: 6px;
+    margin-top: 20px;
+  }
+
+</style>
+</html>
